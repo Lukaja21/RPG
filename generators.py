@@ -37,9 +37,9 @@ def loot_generator(grade, amount, itemcount):
         adjusted_price = price + price_adjustment if price + price_adjustment > 0 else price
 
         item = random.choice(loot)
-        grade = random.choice(grades[grade.lower().capitalize()])
+        item_grade = random.choice(grades[grade.lower().capitalize()])
 
-        yield '{} {} {} - {} Coins'.format(adjusted_quantity, grade, item, adjusted_price * adjusted_quantity)
+        yield '{} {} {} - {} Coins'.format(adjusted_quantity, item_grade, item, adjusted_price * adjusted_quantity)
 
 
 def shop_generator(type_):
