@@ -17,20 +17,33 @@ def quest_page():
     except:
         return 'Error'
 
+
 @app.route('/loot_generator')
 def loot_page():
-	try:
-		return render_template('loot_page.html', loots=list(loot_generator(request.args['grade'], int(request.args['amount']), int(request.args['itemcount']))))
+    try:
+        return render_template('loot_page.html', loots=list(loot_generator(request.args['grade'], int(request.args['amount']), int(request.args['itemcount']))))
 
-	except:
-		return 'Error'
+    except:
+        return 'Error'
+
 
 @app.route('/npc_generator')
 def npc_page():
-	return render_template('npc_page.html', npc=npc_generator())
+    try:
+        return render_template('npc_page.html', npc=npc_generator())
+
+    except:
+        return 'Error'
+
 
 @app.route('/shop_generator')
 def shop_page():
-	return render_template('shop_page.html', shops=list(shop_generator(request.args['type'])))
+    try:
+	   return render_template('shop_page.html', shops=list(shop_generator(request.args['type'])))
 
-app.run()
+    except:
+        return 'Error'
+
+
+if __name__ == '__main__':
+    app.run()
