@@ -57,11 +57,11 @@ def quest_generator(quest_type):
 
 
 def npc_generator():
-    return {'race': random.choice(list(npc['Race'])),
-            'manners': random.choice(list(npc['Manners'])),
-            'intelligence': random.choice(list(npc['Intelligence'])),
-            'physical_strength': random.choice(list(npc['Physical Strength'])),
-            'influence': random.choice(list(npc['Influence'])),
-            'religious': random.choice(list(npc['Religious'])),
-            'social_ranking': random.choice(list(npc['Social Ranking'])),
-            'wealth': random.choice(list(npc['Wealth']))}
+    return {'Race': random.choice(list(npc['Race'])),
+            'Manners': random.choice(list(npc['Manners'])),
+            'Intelligence': random.choice(list(npc['Intelligence'])),
+            'Physical_strength': random.choice(list(npc['Physical Strength'])),
+            'Influence': random.choice(list(npc['Influence'])),
+            'Religious': random.choice(list(npc['Religious'])),
+            'Social_ranking': random.choice(list(npc['Social Ranking'])),
+            'Wealth': random.choice(list(npc['Wealth']))}

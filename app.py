@@ -12,11 +12,28 @@ def main():
 
 @app.route('/quest_generator')
 def quest_page():
-    if request.args['quest_type'].lower() in ['gather', 'battle']:
+    try:
         return render_template('quest_page.html', quest=quest_generator(request.args['quest_type']))
-
-    else:
+    except:
         return 'Error'
 
+@app.route('/loot_generator')
+def loot_page():
+	try:
+		return render_template('loot_page.html', loots=list(loot_generator(request.args['grade'], int(request.args['amount']), int(request.args['itemcount']))))
+
+	except:
+		return 'Error'
+
+@app.route('/npc_generator')
+def npc_page():
+	return render_template('npc_page.html', npc=npc_generator())
+
+@app.route('/shop_generator')
+def shop_page():
+	try:
+		return render_template('shop_page.html', shops=list(shop_generator(request.args['type'])))
+	except:
+		return 'Error'
 
 app.run()
