@@ -63,5 +63,5 @@ def npc_generator():
             'Physical_strength': random.choice(list(npc['Physical Strength'])),
             'Influence': random.choice(list(npc['Influence'])),
             'Religious': random.choice(list(npc['Religious'])),
-            'Social_ranking': random.choice(list(npc['Social Ranking'])),
+            'Social_Ranking': random.choice(list(npc['Social Ranking'])),
             'Wealth': random.choice(list(npc['Wealth']))}
