@@ -672,7 +672,7 @@
     "Warrior's Wool Wristbands": 23,
     "Wool Headguard": 27
   },
-  "FoodStore": {
+  "Foodstore": {
     "Acorn": 11,
     "Ale": 12,
     "Almond": 13,
@@ -1555,7 +1555,7 @@
     "Willow Broom": 148,
     "Yew Broom": 160
   },
-  "MagicIngredients": {
+  "Magicingredients": {
     "Angel Feather": 35,
     "Arachne's Venom": 195,
     "Arachne's Web": 180,
@@ -1662,7 +1662,7 @@
     "Wyvern Scale": 27,
     "Yeti Fur": 88
   },
-  "MagicWeapons": {
+  "Magicweapons": {
     "Acacia Gargoyle Wand": 215,
     "Arcane Dreambinder": 152,
     "Ashwood Grand Staff": 294,
