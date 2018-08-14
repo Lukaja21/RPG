@@ -43,7 +43,7 @@ def loot_generator(grade, amount, itemcount):
 
 
 def shop_generator(type_):
-    for item in random.sample(list(shop[type_.lower().capitalize()]), random.randint(5, 15)):
+    for item in random.sample(list(shop[type_.lower().capitalize()]), random.randint(20, 30)):
         price_adjustment = random.randint(-5, 5)
         yield '{} - {} Coins'.format(item, shop[type_.lower().capitalize()][item] + price_adjustment if shop[type_.lower().capitalize()][item] + price_adjustment > 0 else shop[type_.lower().capitalize()][item])
 
