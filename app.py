@@ -39,7 +39,7 @@ def npc_page():
 @app.route('/shop_generator')
 def shop_page():
     try:
-	   return render_template('shop_page.html', shops=list(shop_generator(request.args['type'])))
+        return render_template('shop_page.html', shops=list(shop_generator(request.args['type'])))
 
     except:
         return 'Error'
