@@ -4,6 +4,8 @@ A collection of helpful Python functions for role-playing games.
 
 Some of the data is pulled from [Roll For Fantasy](http://rollforfantasy.com) and [Fantasy Name Generator](http://fantasynamegenerators.com).
 
+Live on [PythonAnywhere](http://lukaja21.pythonanywhere.com/).
+
 
 ## Installation
 
