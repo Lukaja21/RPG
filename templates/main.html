@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Page Title</title>
+        <title>RPG Tools</title>
+        <script>
+          function processCharacter(files) {
+            var character_file = files[0];
+            var reader = new FileReader();
+            reader.readAsText(character_file, "UTF-8");
+            reader.onload = function(evt) {
+              var character = JSON.parse(evt.target.result);
+              try {
+                document.getElementsByName("name")[0].value = character["name"];
+                document.getElementsByName("xp")[0].value = character["xp"];
+                document.getElementsByName("lvl")[0].value = character["lvl"];
+                document.getElementsByName("coins")[0].value = character["coins"];
+                document.getElementsByName("right")[0].value = character["right"];
+                document.getElementsByName("left")[0].value = character["left"];
+                document.getElementsByName("helmet")[0].value = character["chest"];
+                document.getElementsByName("chest")[0].value = character["chest"];
+                document.getElementsByName("legs")[0].value = character["legs"];
+                document.getElementsByName("footwear")[0].value = character["footwear"];
+                document.getElementsByName("strength")[0].value = character["strength"];
+                document.getElementsByName("defense")[0].value = character["defense"];
+                document.getElementsByName("speed")[0].value = character["speed"];
+                document.getElementsByName("mana")[0].value = character["mana"];
+                document.getElementsByName("hp")[0].value = character["hp"];
+                document.getElementsByName("dexterity")[0].value = character["dexterity"];
+              }
+              catch (e) {
+                console.log(e);
+              }
+
+            }
+          }
+          function saveCharacter(){
+            var data = {"name":document.getElementsByName("name")[0].value, "xp":document.getElementsByName("xp")[0].value, "lvl":document.getElementsByName("lvl")[0].value, "coins":document.getElementsByName("coins")[0].value, "right":document.getElementsByName("right")[0].value, "left":document.getElementsByName("left")[0].value, "helmet":document.getElementsByName("helmet")[0].value, "chest":document.getElementsByName("chest")[0].value, "legs":document.getElementsByName("legs")[0].value, "footwear":document.getElementsByName("footwear")[0].value, "strength":document.getElementsByName("strength")[0].value, "defense":document.getElementsByName("defense")[0].value, "speed":document.getElementsByName("speed")[0].value, "mana":document.getElementsByName("mana")[0].value, "hp":document.getElementsByName("hp")[0].value, "dexterity":document.getElementsByName("dexterity")[0].value}
+            var json = JSON.stringify(data, null, 2);
+            var blob = new Blob([json], {type: "application/json"});
+            var url  = URL.createObjectURL(blob);
+
+            var a = document.getElementById("save");
+            a.download    = "character.json";
+            a.href        = url;  
+          }
+        </script>
     </head>
     <body>
         <h1 style="font-size:40px;">Quest Generator</h1>
@@ -45,6 +87,81 @@
             <input type="radio" name="type" value="Armor"> Armor Shop<br>
             <input type="radio" name="type" value="Archery"> Archery Shop<br>
             <input type="submit" value="Submit">
+        </form>
+        <hr>
+        <h1 style="font-size:40px;">Character Editing</h1>
+        <form id="characterform">
+            <input type="file" id="character" multiple onchange="processCharacter(this.files)"><br>
+            Name:
+            <input type="text" name="name"><br>
+            XP:
+            <input type="text" name="xp"><br>
+            Lvl:
+            <input type="text" name="lvl"><br>
+            Coins:
+            <input type="text" name="coins"><br>
+            Right Hand:
+            <input type="text" name="right"><br>
+            Left Hand:
+            <input type="text" name="left"><br>
+            Helmet:
+            <input type="text" name="helmet"><br>
+            Chestplate:
+            <input type="text" name="chest"><br>
+            Leggings:
+            <input type="text" name="legs"><br>
+            Footwear:
+            <input type="text" name="footwear"><br>
+            Strength:
+            <input type="text" name="strength"><br>
+            Defense:
+            <input type="text" name="defense"><br>
+            Speed:
+            <input type="text" name="speed"><br>
+            Mana:
+            <input type="text" name="mana"><br>
+            Hp:
+            <input type="text" name="hp"><br>
+            Dexterity:
+            <input type="text" name="dexterity"><br>
+            <a href="#" onclick="saveCharacter()" type="button" id="save">Save Character</a>
+        </form>
+        <hr>
+        <h1 style="font-size:40px;">Item Search</h1>
+        <form action="/item_search" method="GET">
+            Which item?<br>
+            <input type="text" name="answer"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+        <h1 style="font-size:40px;">Battle Simulator</h1>
+        <form action="/battle" method="GET">
+            Enemy Health: 
+            <input type="text" name="enemy_health">
+            Player Health: 
+            <input type="text" name="health"><br>
+            Enemy Attack: 
+            <input type="text" name="enemy_attack">
+            Player Attack: 
+            <input type="text" name="attack"><br>
+            Enemy Defense: 
+            <input type="text" name="enemy_defense">
+            Player Defense: 
+            <input type="text" name="defense"><br>
+            Enemy Speed: 
+            <input type="text" name="enemy_speed">
+            Player Speed: 
+            <input type="text" name="speed"><br>
+            Enemy Critical Rate: 
+            <input type="text" name="enemy_crit">
+            Player Critical Rate: 
+            <input type="text" name="crit"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+        <h1 style="font-size:40px;">Town Generator</h1>
+        <form action="/town_generator" method="GET">
+            <input type="submit" value="Make a Town">
         </form>
     </body>
 </html>

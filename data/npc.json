@@ -62,8 +62,8 @@
     "Hateful",
     "Benign"
   ],
-  "Physical Strength": [
-    "Strong!",
+  "Physical_Strength": [
+    "Strong",
     "Athletic",
     "Average",
     "Average",
@@ -85,7 +85,7 @@
     true,
     false
   ],
-  "Social Ranking": [
+  "Social_Ranking": [
     "Prestigious",
     "Upper Class",
     "Middle Class",

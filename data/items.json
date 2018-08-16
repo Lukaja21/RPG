@@ -1,0 +1,4492 @@
+{
+    "Iron Sword": {
+        "Name": "Iron Sword",
+        "Description": "An plain iron sword with a worn-out leather frip and slightly dulled tip",
+        "Stat_bonuses": "+1.5 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Helmet": {
+        "Name": "Iron Helmet",
+        "Description": "A slightly rusted sturdy steel helmet",
+        "Stat_bonuses": "+1 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Chestplate": {
+        "Name": "Iron Chestplate",
+        "Description": "A sturdy chesplate made with leather straps and a few plates of steel",
+        "Stat_bonuses": "+2 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Leggings": {
+        "Name": "Iron Leggings",
+        "Description": "A sleek pair of sturdy steel leggings with mystical etches",
+        "Stat_bonuses": "+1.5 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Boots": {
+        "Name": "Iron Boots",
+        "Description": "A clunky piece of metal with leather straps and a leather toe gaurd",
+        "Stat_bonuses": "+1 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Dagger": {
+        "Name": "Iron Dagger",
+        "Description": "A sneaky iron dagger often used for small robberies or murders",
+        "Stat_bonuses": "+1 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Spear": {
+        "Name": "Iron Spear",
+        "Description": "A long handled spear that is very useful for throwing and poking",
+        "Stat_bonuses": "+1.5 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Adamantite Claymore": {
+        "Name": "Adamantite Claymore",
+        "Description": "An extremely strong longsword that slices through monsters like butter",
+        "Stat_bonuses": "+7 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Adamantite Rapier": {
+        "Name": "Adamantite Rapier",
+        "Description": "A thin dueling sword that is amazing for one versus one battles",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "Thin",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Adamantite Scimitar": {
+        "Name": "Adamantite Scimitar",
+        "Description": "A beautiful curved shortsword that excells at quickly slicing up monsters",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Anguish Doomblade": {
+        "Name": "Anguish Doomblade",
+        "Description": "A powerful sword made with dark magic that is great at destroying undead",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "+2 Attack Power against undead enemies",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Barbarian Reaver": {
+        "Name": "Barbarian Reaver",
+        "Description": "A huge metal scythe often used by savage tribes to behead their victims",
+        "Stat_bonuses": "+3 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "+1 Attack Power",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Blazefury Greatsword": {
+        "Name": "Blazefury Greatsword",
+        "Description": "A huge unweildly broadsword etched with runes of fire and lava",
+        "Stat_bonuses": "+5 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "-1 Attack Speed",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Bloodlord's Claymore": {
+        "Name": "Bloodlord's Claymore",
+        "Description": "A ancient sword found in an old warlord's grave",
+        "Stat_bonuses": "+5 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "Life drain",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Burnished Broadsword": {
+        "Name": "Burnished Broadsword",
+        "Description": "A shin",
+        "Stat_bonuses": "+3 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "-1 Attack Speed",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dragonbreath Shortsword": {
+        "Name": "Dragonbreath Shortsword",
+        "Description": "A sturdy shortsword forged with the breath of a dragon",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "Burning: 1 damage per turn",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Ebon Deflector": {
+        "Name": "Ebon Deflector",
+        "Description": "A night-black sturdy shield that easily blends in with the night sky",
+        "Stat_bonuses": "+1 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "Camoflauge with dark colors",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fireguard Shortsword": {
+        "Name": "Fireguard Shortsword",
+        "Description": "A stainless steel sword which was forged at extremely high temperatures",
+        "Stat_bonuses": "+2 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "Burning: 1 damage per turn",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Gilded Scimitar": {
+        "Name": "Gilded Scimitar",
+        "Description": "A gentleman's dueling weapon often used in fancy fights",
+        "Stat_bonuses": "+1 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "Thin",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Gladiator's Greatsword": {
+        "Name": "Gladiator's Greatsword",
+        "Description": "A common broadsword used in professional and competitive fights to the death",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "-2 Attack Speed",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Gaurdian's Defender": {
+        "Name": "Gaurdian's Defender",
+        "Description": "A gold embezzled shield used by elite warriors in the Elven militairy",
+        "Stat_bonuses": "+2 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Gaurdian's Longsword": {
+        "Name": "Gaurdian's Longsword",
+        "Description": "A sleek longsword with a gold hilt used by elite Elven militairy members",
+        "Stat_bonuses": "+5 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Honed Warblade": {
+        "Name": "Honed Warblade",
+        "Description": "A deadly jet black blade passed down for generations from ancient warlords",
+        "Stat_bonuses": "+5 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Iron Deflector": {
+        "Name": "Iron Deflector",
+        "Description": "A common shield often used in training and small skirmishes",
+        "Stat_bonuses": "+1 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Doomblade": {
+        "Name": "Iron Doomblade",
+        "Description": "A standard blade for criminals and drug dealers",
+        "Stat_bonuses": "+2 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Quickblade": {
+        "Name": "Iron Quickblade",
+        "Description": "A mediocre shortsword which excells at quickly slicing up enemies",
+        "Stat_bonuses": "",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lightning Greatsword": {
+        "Name": "Lightning Greatsword",
+        "Description": "A huge sword imbued with electricity. What a shock!",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "-1 Attack Speed, Shock: -1 speed and attack per turn",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Mercenary Scimitar": {
+        "Name": "Mercenary Scimitar",
+        "Description": "A thin duleing weapon often used to settle fights in criminal neighborhood",
+        "Stat_bonuses": "+1 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mithril Broadsword": {
+        "Name": "Mithril Broadsword",
+        "Description": "A incredibly powerful greatsword that can only be weilded by the strongest if warriors",
+        "Stat_bonuses": "+9 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "-1 Attack Speed",
+        "lvl": "4",
+        "Quantity": 1
+    },
+    "Mithril Gaurdian": {
+        "Name": "Mithril Gaurdian",
+        "Description": "A incredibly strong gold embezzled shield that only the elite can afford",
+        "Stat_bonuses": "+3 Armour",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "3",
+        "Quantity": 1
+    },
+    "Mithril Quickblade": {
+        "Name": "Mithril Quickblade",
+        "Description": "A amazingly strong shortsword that excells at quickly destroying small enemies",
+        "Stat_bonuses": "+4 Attack Power",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other Stuff": "None",
+        "lvl": "4",
+        "Quantity": 1
+    },
+    "Air Rune(s)": {
+        "Name": "Air Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Arcane Rune(s)": {
+        "Name": "Arcane Rune(s)",
+        "Description": "A especially mystical type of rune often used in advanced alchemy and witch craft",
+        "Stat_bonuses": "+10 mana for armour, x1.5 potion effectivness",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Astral Rune(s)": {
+        "Name": "Astral Rune(s)",
+        "Description": "A rune used to imbue nightly powers into weapons",
+        "Stat_bonuses": "+50% life drain to weapons",
+        "Edible": "False",
+        "Equippable": "True",
+        "Other_Stuff": "None",
+        "lvl": "2",
+        "Quantity": 1
+    },
+    "Blood Rune(s)": {
+        "Name": "Blood Rune(s)",
+        "Description": "Blood runes are often used to enhance potions and weapons with the power of life drain",
+        "Stat_bonuses": "100% life drain to weapons, 50% life drain effect on potion",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Body Rune(s)": {
+        "Name": "Body Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bone Rune(s)": {
+        "Name": "Bone Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Chaos Rune(s)": {
+        "Name": "Chaos Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cosmic Rune(s)": {
+        "Name": "Cosmic Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Death Rune(s)": {
+        "Name": "Death Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dust Rune(s)": {
+        "Name": "Dust Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Earth Rune(s)": {
+        "Name": "Earth Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fire Rune(s)": {
+        "Name": "Fire Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fury Rune(s)": {
+        "Name": "Fury Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ice Rune(s)": {
+        "Name": "Ice Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Rune(s)": {
+        "Name": "Iron Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lava Rune(s)": {
+        "Name": "Lava Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Life Rune(s)": {
+        "Name": "Life Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Light Rune(s)": {
+        "Name": "Light Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lunar Rune(s)": {
+        "Name": "Lunar Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Metal Rune(s)": {
+        "Name": "Metal Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mind Rune(s)": {
+        "Name": "Mind Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Nature Rune(s)": {
+        "Name": "Nature Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shadow Rune(s)": {
+        "Name": "Shadow Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Smoke Rune(s)": {
+        "Name": "Smoke Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Solar Rune(s)": {
+        "Name": "Solar Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Soul Rune(s)": {
+        "Name": "Soul Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spirit Rune(s)": {
+        "Name": "Spirit Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tempest Rune(s)": {
+        "Name": "Tempest Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Void Rune(s)": {
+        "Name": "Void Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Water Rune(s)": {
+        "Name": "Water Rune(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Arbalest": {
+        "Name": "Arbalest",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Axe": {
+        "Name": "Axe",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Barrier": {
+        "Name": "Barrier",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Battlehamer": {
+        "Name": "Battlehamer",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bow": {
+        "Name": "Bow",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Broad Axe": {
+        "Name": "Broad Axe",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Broadsword": {
+        "Name": "Broadsword",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Buckler": {
+        "Name": "Buckler",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bulwark": {
+        "Name": "Bulwark",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Claymore": {
+        "Name": "Claymore",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Crossbow": {
+        "Name": "Crossbow",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dagger": {
+        "Name": "Dagger",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Etcher": {
+        "Name": "Etcher",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Flail": {
+        "Name": "Flail",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Greatshield": {
+        "Name": "Greatshield",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Halberd": {
+        "Name": "Halberd",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Harpoon": {
+        "Name": "Harpoon",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Javelin": {
+        "Name": "Javelin",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Katana": {
+        "Name": "Katana",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Kite Shield": {
+        "Name": "Kite Shield",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lance": {
+        "Name": "Lance",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Longbow": {
+        "Name": "Longbow",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Longsword": {
+        "Name": "Longsword",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Maul": {
+        "Name": "Maul",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Morning Star": {
+        "Name": "Morning Star",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pike": {
+        "Name": "Pike",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Polearm": {
+        "Name": "Polearm",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ranseur": {
+        "Name": "Ranseur",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Rapier": {
+        "Name": "Rapier",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Reaver": {
+        "Name": "Reaver",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Recurve": {
+        "Name": "Recurve",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sabre": {
+        "Name": "Sabre",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Scimitar": {
+        "Name": "Scimitar",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shield": {
+        "Name": "Shield",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shiv": {
+        "Name": "Shiv",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spear": {
+        "Name": "Spear",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Staff": {
+        "Name": "Staff",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Stiletto": {
+        "Name": "Stiletto",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tower Shield": {
+        "Name": "Tower Shield",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Trident": {
+        "Name": "Trident",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Wand": {
+        "Name": "Wand",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Warbow": {
+        "Name": "Warbow",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Warmace": {
+        "Name": "Warmace",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Amulet(s)": {
+        "Name": "Amulet(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Anklet(s)": {
+        "Name": "Anklet(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Armlet(s)": {
+        "Name": "Armlet(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bracelet(s)": {
+        "Name": "Bracelet(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Brooch(es)": {
+        "Name": "Brooch(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Choker(s)": {
+        "Name": "Choker(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Crown(s)": {
+        "Name": "Crown(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Earring(s)": {
+        "Name": "Earring(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Emblem(s)": {
+        "Name": "Emblem(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Hairpin(s)": {
+        "Name": "Hairpin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Locket(s)": {
+        "Name": "Locket(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Medallion(s)": {
+        "Name": "Medallion(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Necklace(s)": {
+        "Name": "Necklace(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pendant(s)": {
+        "Name": "Pendant(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pin(s)": {
+        "Name": "Pin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ring(s)": {
+        "Name": "Ring(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tiara(s)": {
+        "Name": "Tiara(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Bagpipes": {
+        "Name": "Set(s) of Bagpipes",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bell(s)": {
+        "Name": "Bell(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Chimes": {
+        "Name": "Set(s) of Chimes",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cymbal(s)": {
+        "Name": "Cymbal(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Djembe(s)": {
+        "Name": "Djembe(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Drum(s)": {
+        "Name": "Drum(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fiddle(s)": {
+        "Name": "Fiddle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Flute(s)": {
+        "Name": "Flute(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Guitar(s)": {
+        "Name": "Guitar(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Harmonica(s)": {
+        "Name": "Harmonica(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Harp(s)": {
+        "Name": "Harp(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Horn(s)": {
+        "Name": "Horn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lute(s)": {
+        "Name": "Lute(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lyre(s)": {
+        "Name": "Lyre(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mandolin(s)": {
+        "Name": "Mandolin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ocarina(s)": {
+        "Name": "Ocarina(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Pipes": {
+        "Name": "Set(s) of Pipes",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tambourine(s)": {
+        "Name": "Tambourine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Viola(s)": {
+        "Name": "Viola(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Violin(s)": {
+        "Name": "Violin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Abyss Root(s)": {
+        "Name": "Abyss Root(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Angel's Ivy(s)": {
+        "Name": "Angel's Ivy(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Fat(s)": {
+        "Name": "Animal Fat(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Antler(s)": {
+        "Name": "Antler(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Arctic Weed(s)": {
+        "Name": "Arctic Weed(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Aspen Conk(s)": {
+        "Name": "Aspen Conk(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Assassin Brier(s)": {
+        "Name": "Assassin Brier(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Banded Polypore(s)": {
+        "Name": "Banded Polypore(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Banshee Joy(s)": {
+        "Name": "Banshee Joy(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Beehive Husk(s)": {
+        "Name": "Beehive Husk(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bindweed(s)": {
+        "Name": "Bindweed(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bird Egg(s)": {
+        "Name": "Bird Egg(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bird Feather(s)": {
+        "Name": "Bird Feather(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bird's Nest(s)": {
+        "Name": "Bird's Nest(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bitter Lily(s)": {
+        "Name": "Bitter Lily(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Black Sorrel(s)": {
+        "Name": "Black Sorrel(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Blister Thorn(s)": {
+        "Name": "Blister Thorn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Boar Tusk(s)": {
+        "Name": "Boar Tusk(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bone Meal(s)": {
+        "Name": "Bone Meal(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Branched Inkcap(s)": {
+        "Name": "Branched Inkcap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Brittle Cap(s)": {
+        "Name": "Brittle Cap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bug Thorax(es)": {
+        "Name": "Bug Thorax(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Butterfly Wing(s)": {
+        "Name": "Butterfly Wing(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cactus Spine(s)": {
+        "Name": "Cactus Spine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Chameleon Sage(s)": {
+        "Name": "Chameleon Sage(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Charcoal(s)": {
+        "Name": "Charcoal(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Chitin(s)": {
+        "Name": "Chitin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Clean Ash(es)": {
+        "Name": "Clean Ash(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Clustered Ball Lichen(s)": {
+        "Name": "Clustered Ball Lichen(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cobweb(s)": {
+        "Name": "Cobweb(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Crimson Deathcap(s)": {
+        "Name": "Crimson Deathcap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dawn Clove(s)": {
+        "Name": "Dawn Clove(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Death Lotus(es)": {
+        "Name": "Death Lotus(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Death's Nightshade(s)": {
+        "Name": "Death's Nightshade(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Demon Daisy(s)": {
+        "Name": "Demon Daisy(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Demon Needle(s)": {
+        "Name": "Demon Needle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Devil Cassia(s)": {
+        "Name": "Devil Cassia(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dragon Poppy(s)": {
+        "Name": "Dragon Poppy(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dragon's Tea(s)": {
+        "Name": "Dragon's Tea(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Drake Weed(s)": {
+        "Name": "Drake Weed(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Eagle Root(s)": {
+        "Name": "Eagle Root(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ectoplasm(s)": {
+        "Name": "Ectoplasm(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Eyeball(s)": {
+        "Name": "Eyeball(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Eyelash Morel(s)": {
+        "Name": "Eyelash Morel(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fairy Slipper(s)": {
+        "Name": "Fairy Slipper(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fairymoss(es)": {
+        "Name": "Fairymoss(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "False Coral(s)": {
+        "Name": "False Coral(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fawn Amanita(s)": {
+        "Name": "Fawn Amanita(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Feverfew(s)": {
+        "Name": "Feverfew(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Firefly(s)": {
+        "Name": "Firefly(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fish Oil(s)": {
+        "Name": "Fish Oil(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fish Scale(s)": {
+        "Name": "Fish Scale(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fragile Elfcup(s)": {
+        "Name": "Fragile Elfcup(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fragrant Sugarplum(s)": {
+        "Name": "Fragrant Sugarplum(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Frog Spawn(s)": {
+        "Name": "Frog Spawn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Garlic Flake(s)": {
+        "Name": "Garlic Flake(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Giant Root(s)": {
+        "Name": "Giant Root(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Glacier Lilac(s)": {
+        "Name": "Glacier Lilac(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Glow Dust(s)": {
+        "Name": "Glow Dust(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Glow Nettle(s)": {
+        "Name": "Glow Nettle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Golden Fluxroot(s)": {
+        "Name": "Golden Fluxroot(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Grand Aconite(s)": {
+        "Name": "Grand Aconite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Grand Broadleaf(s)": {
+        "Name": "Grand Broadleaf(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Grass Pod(s)": {
+        "Name": "Grass Pod(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Hairy Lichen(s)": {
+        "Name": "Hairy Lichen(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Handful(s) of Roe": {
+        "Name": "Handful(s) of Roe",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Horn Flake(s)": {
+        "Name": "Horn Flake(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lion Laurel(s)": {
+        "Name": "Lion Laurel(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Living Bark(s)": {
+        "Name": "Living Bark(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Long Horn(s)": {
+        "Name": "Long Horn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lunar Flake(s)": {
+        "Name": "Lunar Flake(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lunar Hair(s)": {
+        "Name": "Lunar Hair(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Meadow Beacon(s)": {
+        "Name": "Meadow Beacon(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mimic Tassel(s)": {
+        "Name": "Mimic Tassel(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Moth Wing(s)": {
+        "Name": "Moth Wing(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mountain Dindle(s)": {
+        "Name": "Mountain Dindle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Nightmare Sanguinary(s)": {
+        "Name": "Nightmare Sanguinary(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Nordic Snowdrop(s)": {
+        "Name": "Nordic Snowdrop(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ocean Bloom(s)": {
+        "Name": "Ocean Bloom(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pygmy Blossom(s)": {
+        "Name": "Pygmy Blossom(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Rash Rye(s)": {
+        "Name": "Rash Rye(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Raven Vine(s)": {
+        "Name": "Raven Vine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sanguine Seed(s)": {
+        "Name": "Sanguine Seed(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Screaming Nettle(s)": {
+        "Name": "Screaming Nettle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Seaweed(s)": {
+        "Name": "Seaweed(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Serpent Hemp(s)": {
+        "Name": "Serpent Hemp(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Inky Tooth": {
+        "Name": "Set(s) of Inky Tooth",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Jelly Fungus": {
+        "Name": "Set(s) of Jelly Fungus",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Silver Dust(s)": {
+        "Name": "Silver Dust(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Skin Flake(s)": {
+        "Name": "Skin Flake(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Skull Grass(es)": {
+        "Name": "Skull Grass(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Slime Mold(s)": {
+        "Name": "Slime Mold(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Snowy Rooter(s)": {
+        "Name": "Snowy Rooter(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Solar Cap(s)": {
+        "Name": "Solar Cap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Solar Salt(s)": {
+        "Name": "Solar Salt(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spider Berry(s)": {
+        "Name": "Spider Berry(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spider Egg(s)": {
+        "Name": "Spider Egg(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Swamp Tar(s)": {
+        "Name": "Swamp Tar(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sweet Button(s)": {
+        "Name": "Sweet Button(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sweetbread Mushroom(s)": {
+        "Name": "Sweetbread Mushroom(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tall Bindweed(s)": {
+        "Name": "Tall Bindweed(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Thunder Thorn(s)": {
+        "Name": "Thunder Thorn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Toad Slime(s)": {
+        "Name": "Toad Slime(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tree Sap(s)": {
+        "Name": "Tree Sap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Truffle Tongue(s)": {
+        "Name": "Truffle Tongue(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tusk Powder(s)": {
+        "Name": "Tusk Powder(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Twilight Flower(s)": {
+        "Name": "Twilight Flower(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Vial(s) of Serpent Venom": {
+        "Name": "Vial(s) of Serpent Venom",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Waxy Mildew(s)": {
+        "Name": "Waxy Mildew(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Weeping Deadnettle(s)": {
+        "Name": "Weeping Deadnettle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Winter Stinkhorn(s)": {
+        "Name": "Winter Stinkhorn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Wolf Rose(s)": {
+        "Name": "Wolf Rose(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Adorned Cup(s)": {
+        "Name": "Adorned Cup(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Adorned Drinking Horn(s)": {
+        "Name": "Adorned Drinking Horn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Adorned Vial(s)": {
+        "Name": "Adorned Vial(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Bone(s)": {
+        "Name": "Animal Bone(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Cage(s)": {
+        "Name": "Animal Cage(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Figurine(s)": {
+        "Name": "Animal Figurine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Fur(s)": {
+        "Name": "Animal Fur(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Hide(s)": {
+        "Name": "Animal Hide(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Horn(s)": {
+        "Name": "Animal Horn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Paw(s)": {
+        "Name": "Animal Paw(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Scale(s)": {
+        "Name": "Animal Scale(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Skin(s)": {
+        "Name": "Animal Skin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Skull(s)": {
+        "Name": "Animal Skull(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Tail(s)": {
+        "Name": "Animal Tail(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Trap(s)": {
+        "Name": "Animal Trap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Animal Tusk(s)": {
+        "Name": "Animal Tusk(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Belt(s)": {
+        "Name": "Belt(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bird Cage(s)": {
+        "Name": "Bird Cage(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bolt(s) of Cotton": {
+        "Name": "Bolt(s) of Cotton",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bolt(s) of Leather": {
+        "Name": "Bolt(s) of Leather",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bolt(s) of Silk": {
+        "Name": "Bolt(s) of Silk",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bolt(s) of Wool": {
+        "Name": "Bolt(s) of Wool",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bone Statuette(s)": {
+        "Name": "Bone Statuette(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Book(s)": {
+        "Name": "Book(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bottle(s) of Beer": {
+        "Name": "Bottle(s) of Beer",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bottle(s) of Wine": {
+        "Name": "Bottle(s) of Wine",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bowl(s)": {
+        "Name": "Bowl(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Button(s)": {
+        "Name": "Button(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cane(s)": {
+        "Name": "Cane(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Carved Wood": {
+        "Name": "Carved Wood",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ceremonial Blade(s)": {
+        "Name": "Ceremonial Blade(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ceremonial Bowl(s)": {
+        "Name": "Ceremonial Bowl(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ceremonial Cup(s)": {
+        "Name": "Ceremonial Cup(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ceremonial Dagger(s)": {
+        "Name": "Ceremonial Dagger(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ceremonial Robe(s)": {
+        "Name": "Ceremonial Robe(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ceremonial Staff(s)": {
+        "Name": "Ceremonial Staff(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Compass(es)": {
+        "Name": "Compass(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cup(s) of Ointment": {
+        "Name": "Cup(s) of Ointment",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cushion(s)": {
+        "Name": "Cushion(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Drinking Horn(s)": {
+        "Name": "Drinking Horn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Exotic Spice(s)": {
+        "Name": "Exotic Spice(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fan(s)": {
+        "Name": "Fan(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Figurine(s)": {
+        "Name": "Figurine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ivory Figurine(s)": {
+        "Name": "Ivory Figurine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Jewelry Box(es)": {
+        "Name": "Jewelry Box(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Keg(s)": {
+        "Name": "Keg(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lantern(s)": {
+        "Name": "Lantern(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Leather Bag(s)": {
+        "Name": "Leather Bag(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Marble Figurine(s)": {
+        "Name": "Marble Figurine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mask(s)": {
+        "Name": "Mask(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mirror(s)": {
+        "Name": "Mirror(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Monocle(s)": {
+        "Name": "Monocle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mug(s)": {
+        "Name": "Mug(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Music Box(es)": {
+        "Name": "Music Box(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Perfume Bottle(s)": {
+        "Name": "Perfume Bottle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Perfume Vial(s)": {
+        "Name": "Perfume Vial(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pillow(s)": {
+        "Name": "Pillow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Plate(s)": {
+        "Name": "Plate(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Prayer Beads Necklace(s)": {
+        "Name": "Prayer Beads Necklace(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Quill(s)": {
+        "Name": "Quill(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Rare Bird Feather(s)": {
+        "Name": "Rare Bird Feather(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Rare Book(s)": {
+        "Name": "Rare Book(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Rare Tome(s)": {
+        "Name": "Rare Tome(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Religious Figurine(s)": {
+        "Name": "Religious Figurine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Rod(s)": {
+        "Name": "Rod(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Satchel(s)": {
+        "Name": "Satchel(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Scepter(s)": {
+        "Name": "Scepter(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set of Animal Teeth": {
+        "Name": "Set of Animal Teeth",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Goggles": {
+        "Name": "Set(s) of Goggles",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Playing Cards": {
+        "Name": "Set(s) of Playing Cards",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Shackles": {
+        "Name": "Set(s) of Shackles",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Set(s) of Spectacles": {
+        "Name": "Set(s) of Spectacles",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sextant(s)": {
+        "Name": "Sextant(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spyglass(es)": {
+        "Name": "Spyglass(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Statuette(s)": {
+        "Name": "Statuette(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tome(s)": {
+        "Name": "Tome(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Urn(s)": {
+        "Name": "Urn(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Vestment(s)": {
+        "Name": "Vestment(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Vial(s) of Ink": {
+        "Name": "Vial(s) of Ink",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Vial(s) of Liquid": {
+        "Name": "Vial(s) of Liquid",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "War Mask(s)": {
+        "Name": "War Mask(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Watch(es)": {
+        "Name": "Watch(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Agate(s)": {
+        "Name": "Agate(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Amber(s)": {
+        "Name": "Amber(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Amethyst(s)": {
+        "Name": "Amethyst(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Aquamarine(s)": {
+        "Name": "Aquamarine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Azurite(s)": {
+        "Name": "Azurite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Beryl(s)": {
+        "Name": "Beryl(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Black Pearl(s)": {
+        "Name": "Black Pearl(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bloodstone(s)": {
+        "Name": "Bloodstone(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Citrine(s)": {
+        "Name": "Citrine(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Coral(s)": {
+        "Name": "Coral(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Diamond(s)": {
+        "Name": "Diamond(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Emerald(s)": {
+        "Name": "Emerald(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Fluorite(s)": {
+        "Name": "Fluorite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Hematite(s)": {
+        "Name": "Hematite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Jade(s)": {
+        "Name": "Jade(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Jasper(s)": {
+        "Name": "Jasper(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Lapis Lazuli(s)": {
+        "Name": "Lapis Lazuli(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Malachite(s)": {
+        "Name": "Malachite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Moonstone(s)": {
+        "Name": "Moonstone(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Moss Agate(s)": {
+        "Name": "Moss Agate(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Obsidian(s)": {
+        "Name": "Obsidian(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Onyx(es)": {
+        "Name": "Onyx(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Opal(s)": {
+        "Name": "Opal(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pearl(s)": {
+        "Name": "Pearl(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Peridot(s)": {
+        "Name": "Peridot(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pyrite(s)": {
+        "Name": "Pyrite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Quartz(es)": {
+        "Name": "Quartz(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Ruby(s)": {
+        "Name": "Ruby(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sapphire(s)": {
+        "Name": "Sapphire(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spinel(s)": {
+        "Name": "Spinel(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tanzanite(s)": {
+        "Name": "Tanzanite(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tiger Eye(s)": {
+        "Name": "Tiger Eye(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Topaz(es)": {
+        "Name": "Topaz(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Turquoise(s)": {
+        "Name": "Turquoise(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Zircon(s)": {
+        "Name": "Zircon(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Blazer(s)": {
+        "Name": "Blazer(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Blouse(s)": {
+        "Name": "Blouse(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Boots": {
+        "Name": "Pair(s) of Boots",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bow(s)": {
+        "Name": "Bow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Breeches": {
+        "Name": "Pair(s) of Breeches",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cloak(s)": {
+        "Name": "Cloak(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Corset(s)": {
+        "Name": "Corset(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Dress(es)": {
+        "Name": "Dress(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Gloves": {
+        "Name": "Pair(s) of Gloves",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Hat(s)": {
+        "Name": "Hat(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Jersey(s)": {
+        "Name": "Jersey(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Jumper(s)": {
+        "Name": "Jumper(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Kilt(s)": {
+        "Name": "Kilt(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Kimono(s)": {
+        "Name": "Kimono(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Nightgown(s)": {
+        "Name": "Nightgown(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Nightshirt(s)": {
+        "Name": "Nightshirt(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Robe(s)": {
+        "Name": "Robe(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Scarf(s)": {
+        "Name": "Scarf(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shirt(s)": {
+        "Name": "Shirt(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Shorts": {
+        "Name": "Pair(s) of Shorts",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Skirt(s)": {
+        "Name": "Skirt(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Slippers": {
+        "Name": "Pair(s) of Slippers",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Stockings": {
+        "Name": "Pair(s) of Stockings",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sweater(s)": {
+        "Name": "Sweater(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair(s) of Trousers": {
+        "Name": "Pair(s) of Trousers",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Turban(s)": {
+        "Name": "Turban(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Vest(s)": {
+        "Name": "Vest(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bronze Arrow(s)": {
+        "Name": "Bronze Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Iron Arrow(s)": {
+        "Name": "Iron Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Steel Arrow(s)": {
+        "Name": "Steel Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mitrhril Arrow(s)": {
+        "Name": "Mitrhril Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Stone Arrow(s)": {
+        "Name": "Stone Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Bone Arrow(s)": {
+        "Name": "Bone Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Quartz Arrow(s)": {
+        "Name": "Quartz Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Obsidian Arrow(s)": {
+        "Name": "Obsidian Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Flint Arrow(s)": {
+        "Name": "Flint Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Wooden Arrow(s)": {
+        "Name": "Wooden Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Glass Arrow(s)": {
+        "Name": "Glass Arrow(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Armguard(s)": {
+        "Name": "Armguard(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Armwrap(s)": {
+        "Name": "Armwrap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Band(s)": {
+        "Name": "Band(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Binding(s)": {
+        "Name": "Binding(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Boots": {
+        "Name": "Pair of Boots",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Breastplate(s)": {
+        "Name": "Breastplate(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Breeches": {
+        "Name": "Breeches",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Coif(s)": {
+        "Name": "Coif(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cord(s)": {
+        "Name": "Cord(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Cowl(s)": {
+        "Name": "Cowl(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Cuffs": {
+        "Name": "Pair of Cuffs",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Facemask(s)": {
+        "Name": "Facemask(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Footguards": {
+        "Name": "Pair of Footguards",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Footpads": {
+        "Name": "Pair of Footpads",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Garment(s)": {
+        "Name": "Garment(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Gauntlets": {
+        "Name": "Gauntlets",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Girdle(s)": {
+        "Name": "Girdle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Gloves": {
+        "Name": "Pair of Gloves",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Grips": {
+        "Name": "Pair of Grips",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Handguard": {
+        "Name": "Pair of Handguard",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Handwrap": {
+        "Name": "Pair of Handwrap",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Headguard(s)": {
+        "Name": "Headguard(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Headpiece(s)": {
+        "Name": "Headpiece(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Helm(ets)": {
+        "Name": "Helm(ets)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Jerkin(s)": {
+        "Name": "Jerkin(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Leggings": {
+        "Name": "Leggings",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Legwraps": {
+        "Name": "Legwraps",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Mantle(s)": {
+        "Name": "Mantle(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Raiment(s)": {
+        "Name": "Raiment(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Robes": {
+        "Name": "Robes",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sandal(s)": {
+        "Name": "Sandal(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Sash(es)": {
+        "Name": "Sash(es)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shoulderguards": {
+        "Name": "Shoulderguards",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shoulderwraps": {
+        "Name": "Shoulderwraps",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Shroud(s)": {
+        "Name": "Shroud(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Spaulder(s)": {
+        "Name": "Spaulder(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Tunic(s)": {
+        "Name": "Tunic(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Pair of Vambrace": {
+        "Name": "Pair of Vambrace",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Waistband(s)": {
+        "Name": "Waistband(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Wrap(s)": {
+        "Name": "Wrap(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    },
+    "Wristband(s)": {
+        "Name": "Wristband(s)",
+        "Description": "Undefined",
+        "Stat_bonuses": "Undefined",
+        "Edible": "Undefined",
+        "Equippable": "Undefined",
+        "Other_Stuff": "Undefined",
+        "lvl": "1",
+        "Quantity": 1
+    }
+}

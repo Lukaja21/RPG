@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from generators import (loot_generator, shop_generator,
-                        npc_generator, quest_generator)
+                        npc_generator, quest_generator, item_search, battle, town_generator)
 
 app = Flask(__name__)
 
@@ -44,6 +44,25 @@ def shop_page():
     except:
         return 'Error'
 
+@app.route('/item_search')
+def item_page():
+    try:
+        return render_template('items_page.html', items=list(item_search(request.args['answer'])))
+    
+    except:
+        return 'Error'
+
+@app.route('/battle')
+def battle_page():
+    try:
+        return render_template('battle_page.html', battles=list(battle(int(request.args['enemy_health']), int(request.args['enemy_attack']), int(request.args['enemy_defense']), int(request.args['enemy_speed']), int(request.args['enemy_crit']), int(request.args['health']), int(request.args['attack']), int(request.args['defense']), int(request.args['speed']), int(request.args['crit']))))
+
+    except:
+        return 'Error'
+
+@app.route('/town_generator')
+def town_page():
+    return render_template('town_page.html', towns=town_generator())
 
 if __name__ == '__main__':
     app.run()
