@@ -13,7 +13,8 @@ def main():
 def quest_page():
     try:
         return render_template('quest_page.html', quest=quest_generator(request.args['quest_type']))
-    except:
+    
+    except Exception:
         return 'Error'
 
 
@@ -22,7 +23,7 @@ def loot_page():
     try:
         return render_template('loot_page.html', loots=list(loot_generator(request.args['grade'], int(request.args['amount']), int(request.args['itemcount']))))
 
-    except:
+    except Exception:
         return 'Error'
 
 @app.route('/shop_generator')
@@ -30,7 +31,7 @@ def shop_page():
     try:
         return render_template('shop_page.html', shops=list(shop_generator(request.args['type'])))
 
-    except:
+    except Exception:
         return 'Error'
 
 @app.route('/item_search')
@@ -38,7 +39,7 @@ def item_page():
     try:
         return render_template('items_page.html', items=list(item_search(request.args['answer'])))
     
-    except:
+    except Exception:
         return 'Error'
 
 @app.route('/battle')
@@ -46,7 +47,7 @@ def battle_page():
     try:
         return render_template('battle_page.html', battles=list(battle(int(request.args['enemy_health']), int(request.args['enemy_attack']), int(request.args['enemy_defense']), int(request.args['enemy_speed']), int(request.args['enemy_crit']), int(request.args['health']), int(request.args['attack']), int(request.args['defense']), int(request.args['speed']), int(request.args['crit']))))
 
-    except:
+    except Exception:
         return 'Error'
 
 @app.route('/town_generator')
@@ -55,7 +56,10 @@ def town_page():
 
 @app.route('/dungeon_generator')
 def dungeon_page():
-    return render_template('dungeon_page.html', dungeon=dungeon_generator())
+    try:
+        return render_template('dungeon_page.html', dungeons=list(dungeon_generator(request.args['length'])))
+    except Exception:
+        return 'Error'
 
 @app.route('/npc_generator')
 def npc_page():

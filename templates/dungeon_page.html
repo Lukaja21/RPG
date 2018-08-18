@@ -4,7 +4,10 @@
 	<title>RPG Tools</title>
 </head>
 <body>
-	{{dungeon}}<br>
+	{% for dungeon in dungeons %}
+		{{dungeon}}
+		</br>
+	{% endfor %}<br>
 	<a href="/">Back to main page</a>
 </body>
 </html>

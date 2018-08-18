@@ -26,8 +26,11 @@ with open('./data/town.json') as items_file:
 with open('./data/dungeon.json') as dungeon_file:
     dungeon = json.load(dungeon_file)
 
-def dungeon_generator():
-    return random.choice(list(dungeon['dungeons']))
+def dungeon_generator(length):
+    h = 0
+    for x in range(int(length)):
+        h = h + 1
+        yield 'Room {}: {}'.format(h, random.choice(list(dungeon['dungeons'])))
 
 def loot_generator(grade, amount, itemcount):
     if grade.lower() == 'bad':
