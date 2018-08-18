@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
-from generators import (loot_generator, shop_generator,
-                        npc_generator, quest_generator, item_search, battle, town_generator)
+from generators import (loot_generator, shop_generator, quest_generator, item_search, battle, town_generator)
 
 app = Flask(__name__)
 
@@ -25,16 +24,6 @@ def loot_page():
 
     except:
         return 'Error'
-
-
-@app.route('/npc_generator')
-def npc_page():
-    try:
-        return render_template('npc_page.html', npc=npc_generator())
-
-    except:
-        return 'Error'
-
 
 @app.route('/shop_generator')
 def shop_page():

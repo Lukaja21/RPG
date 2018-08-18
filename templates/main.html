@@ -33,6 +33,17 @@
 
             }
           }
+          function NPC(){
+                var Influence = ["Worldwide","Nationwide","Citywide","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","None","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family","Only immediate friends and family"];
+                var Intelligence = ["Genius","Intelligent","Average","Average","Average","Dumb","Imbecile"];
+                var Manners = ["Polite","Neutral","Neutral","Neutral","Rude","Hateful","Benign"];
+                var Physical_Strength = ["Strong","Athletic","Average","Average","Average","Weak","Feeble"]
+                var Race = ["Elf","Dwarf","Merfolk","Human","Halfling","Goblin","Half-orc","Ent"];
+                var Religious = ["True", "False"];
+                var Social_Ranking = ["Prestigious","Upper Class","Middle Class","Lower Class","Serf"]
+                var Wealth = ["Wealthy!","Rich","Rich","Rich","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Average","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor","Poor"]
+                document.getElementById("NPC").innerHTML = "NPC:\nInfluence: " + Influence[Math.floor(Math.random() * Influence.length)] + "\nIntelligence: " + Intelligence[Math.floor(Math.random() * Intelligence.length)] + "\nManners: " + Manners[Math.floor(Math.random() * Manners.length)] + "\nPhysical Strength: " + Physical_Strength[Math.floor(Math.random() * Physical_Strength.length)] + "\nRace: " + Race[Math.floor(Math.random() * Race.length)] + "\nReligious" + Religious[Math.floor(Math.random() * Religious.length)] + "\nSocial Ranking: " + Social_Ranking[Math.floor(Math.random() * Social_Ranking.length)] + "\nWealth: " + Wealth[Math.floor(Math.random() * Wealth.length)]
+            }
           function saveCharacter(){
             var data = {"name":document.getElementsByName("name")[0].value, "xp":document.getElementsByName("xp")[0].value, "lvl":document.getElementsByName("lvl")[0].value, "coins":document.getElementsByName("coins")[0].value, "right":document.getElementsByName("right")[0].value, "left":document.getElementsByName("left")[0].value, "helmet":document.getElementsByName("helmet")[0].value, "chest":document.getElementsByName("chest")[0].value, "legs":document.getElementsByName("legs")[0].value, "footwear":document.getElementsByName("footwear")[0].value, "strength":document.getElementsByName("strength")[0].value, "defense":document.getElementsByName("defense")[0].value, "speed":document.getElementsByName("speed")[0].value, "mana":document.getElementsByName("mana")[0].value, "hp":document.getElementsByName("hp")[0].value, "dexterity":document.getElementsByName("dexterity")[0].value}
             var json = JSON.stringify(data, null, 2);
@@ -45,8 +56,27 @@
           }
         </script>
     </head>
+    <style>
+        .button {
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2px 6px 2px 6px;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+        }
+    </style>
     <body>
+        <p>
+            This is a tool for dungeon master playing any type of RPG, made by lukaja21
+        </p>
         <h1 style="font-size:40px;">Quest Generator</h1>
+        <p>
+            Choose whether you would like a gathering quest or a battle one, and then press 'submit' to get the desired quest.
+        </p>
         <form action="/quest_generator" method="GET">
             <input type="radio" name="quest_type" value="gather" checked> Gather<br>
             <input type="radio" name="quest_type" value="battle"> Battle<br>
@@ -54,6 +84,9 @@
         </form>
         <hr>
         <h1 style="font-size:40px;">Loot Generator</h1>
+        <p>
+            Choose how many of each item you want(will change by 1 or 2 for each item), the total amount of items you want and then press 'submit' to get a list of loot.
+        </p>
         <form action="/loot_generator" method="GET">
             How many of each?<br>
             <input type="text" name="amount"><br>
@@ -66,11 +99,21 @@
         </form>
         <hr>
         <h1 style="font-size:40px;">NPC Generator</h1>
-        <form action="/npc_generator" method="GET">
-            <input type="submit" value="Make a NPC">
+        <p>
+            Press the 'Make a NPC' button to get a randomly generated NPC.
+        </p>
+        <div style = "border: 1px;">
+            <pre id="NPC"  style = "font-family: arial">
+
+            </pre>
+        </div>
+        <form  method="GET">
+            <a href="#" onclick="NPC()" class="button">NPC</a>
         </form>
         <hr>
         <h1 style="font-size:40px;">Shop Generator</h1>
+        <p>
+            Choose the type of shop you want then press the 'submit' button to recieve a random shop inventory of that type.
         <form action="/shop_generator" method="GET">
             <input type="radio" name="type" value="Weapons" checked> Weapon Shop<br>
             <input type="radio" name="type" value="LeatherCrafter"> Tanner<br>
@@ -90,6 +133,9 @@
         </form>
         <hr>
         <h1 style="font-size:40px;">Character Editing</h1>
+        <p>
+            To load a character choose a valid character json file and upload it. To save press the 'save character' button.
+        </p>
         <form id="characterform">
             <input type="file" id="character" multiple onchange="processCharacter(this.files)"><br>
             Name:
@@ -128,6 +174,9 @@
         </form>
         <hr>
         <h1 style="font-size:40px;">Item Search</h1>
+        <p>
+            Search for a item in the item dictionary, the press 'submit'. It will return a list of all the items with that/those word(s) in them.
+        </p>
         <form action="/item_search" method="GET">
             Which item?<br>
             <input type="text" name="answer"><br>
@@ -135,6 +184,9 @@
         </form>
         <hr>
         <h1 style="font-size:40px;">Battle Simulator</h1>
+        <p>
+            Enter in the desired stats and it will calculate what will happen in the battle. DO NOT PUT BIG NUMBERS IN FOR HEALTH AND THEN SMALL NUMBERS FOR ATTACK because it will slow down the site greatly.
+        </p>
         <form action="/battle" method="GET">
             Enemy Health: 
             <input type="text" name="enemy_health">
@@ -160,6 +212,9 @@
         </form>
         <hr>
         <h1 style="font-size:40px;">Town Generator</h1>
+        <p>
+            Press the 'Make a Town' button to get a detailed description of a town with npcs, demographics and description of the local tavern.
+        </p>
         <form action="/town_generator" method="GET">
             <input type="submit" value="Make a Town">
         </form>

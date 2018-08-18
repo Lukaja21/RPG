@@ -78,9 +78,12 @@ def item_search(term):
             yield items[item]
 
 def town_generator():   
-    yield "Located {}, {} is a {} {} town that specializes in {}. It's houses are generally built of {} and {}, although some are built of more valuable materials.".format(random.choice(list(town['location'])), random.choice(list(town['size'])), random.choice(list(town['names'])), random.choice(list(town['adjective'])), random.choice(list(town['description'])), random.choice(list(town['material2'])), random.choice(list(town['material'])))
+    yield "Located {}, {} is a {} {} town that specializes in {}. It's houses are generally built of {} and {}, although some are built of more valuable materials.".format(random.choice(list(town['location'])), random.choice(list(town['names'])), random.choice(list(town['size'])), random.choice(list(town['adjective'])), random.choice(list(town['description'])), random.choice(list(town['material2'])), random.choice(list(town['material'])))
     yield "The town's attractions include a {} {} and a {} {}, both were made under the current ruler {} {} who was elected by {}.".format(random.choice(list(town['adjective2'])), random.choice(list(town['attractions'])), random.choice(list(town['adjective2'])), random.choice(list(town['attractions2'])), random.choice(list(town['titles'])), random.choice(list(town['names2'])), random.choice(list(town['elect'])))
     yield "The town's economy is {} and is predicted to {} in the next few years under the current ruler. Meanwhile the political climate is outright {} and studies report the government will soon {} when the opposition party lead by {} {} {}.".format(random.choice(list(town['size'])), random.choice(list(town['growth'])), random.choice(list(town['politics'])), random.choice(list(town['politics2'])), random.choice(list(town['titles'])), random.choice(list(town['names2'])), random.choice(list(town['politics3'])))
+    yield 'Population: {}'.format(random.randint(100, 10000))
+    yield 'Military Strength: {}'.format(random.choice(list(town['military'])))
+    yield 'Crime Rate: {}'.format(random.choice(list(town['crime'])))
     yield ''
     yield 'Local Tavern:'
     yield 'Name: {} {}'.format(random.choice(list(town['Tavern'])), random.choice(list(town['Tavern2'])))
@@ -127,7 +130,7 @@ def battle(enemy_health, enemy_attack, enemy_defense, enemy_speed, enemy_crit, h
                             defense = 0
                             yield 'Players defense is broken. Attacking Player...'
                             health = health - damage
-                            yield 'Enemy attacks for {} damage, dealing {} damage to Player. Players health is now {}.'.format(enemy_attack * 3, damage, health)
+                            yield 'Enemy attacks for {} damage and crits, dealing {} damage to Player. Players health is now {}.'.format(enemy_attack * 3, damage, health)
                             if health < 1:
                                 yield 'Player dies.'
                                 break
@@ -153,13 +156,13 @@ def battle(enemy_health, enemy_attack, enemy_defense, enemy_speed, enemy_crit, h
                     else:
                         if enemy_defense > attack * 3:
                             enemy_defense = enemy_defense - attack * 3
-                            "Player attacks for {} damage. Enemy's defense is now {}.".format(attack * 3, enemy_defense)
+                            yield "Player attacks for {} damage. Enemy's defense is now {}.".format(attack * 3, enemy_defense)
                         else:
                             damage = attack * 3 - enemy_defense
                             enemy_defense = 0
                             yield "Enemy's defense is broken. Attacking Enemy..."
                             enemy_health = enemy_health - damage
-                            yield "Player attacks for {} damage, dealing {} damage to Enemy. Enemy's health is now {}.".format(attack * 3, damage, enemy_health)
+                            yield "Player attacks for {} damage and crits, dealing {} damage to Enemy. Enemy's health is now {}.".format(attack * 3, damage, enemy_health)
                             if enemy_health < 1:
                                 yield "Enemy dies"
                                 break
@@ -192,7 +195,7 @@ def battle(enemy_health, enemy_attack, enemy_defense, enemy_speed, enemy_crit, h
                             enemy_defense = 0
                             yield "Enemy's defense is broken. Attacking Enemy..."
                             enemy_health = enemy_health - damage
-                            yield "Player attacks for {} damage, dealing {} damage to Enemy. Enemy's health is now {}.".format(attack * 3, damage, enemy_health)
+                            yield "Player attacks for {} damage and crits, dealing {} damage to Enemy. Enemy's health is now {}.".format(attack * 3, damage, enemy_health)
                             if enemy_health < 1:
                                 yield "Enemy dies"
                                 break
@@ -224,7 +227,7 @@ def battle(enemy_health, enemy_attack, enemy_defense, enemy_speed, enemy_crit, h
                             defense = 0
                             yield 'Players defense is broken. Attacking Player...'
                             health = health - damage
-                            yield 'Enemy attacks for {} damage, dealing {} damage to Player. Players health is now {}.'.format(enemy_attack * 3, damage, health)
+                            yield 'Enemy attacks for {} damage and crits, dealing {} damage to Player. Players health is now {}.'.format(enemy_attack * 3, damage, health)
                             if health < 1:
                                 yield 'Player dies.'
                                 break

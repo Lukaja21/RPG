@@ -23,5 +23,7 @@
 	"politics":["cold", "heated", "dangerous", "peaceful", "calm", "tense", "scary", "terrifying"],
 	"politics2":["shut down", "close", "be split in two", "grow stronger", "become more united", "change ideoligies"],
 	"politics3":["is shut down", "is destroyed", "is beaten", "is cut down", "takes over the government", "becomes stronger", "gains popularity", "loses popularity"],
-	"elect":["by the people", "using force", "with his military goons", "through his parents", "by killing opposition"]
+	"elect":["by the people", "using force", "with his military goons", "through his parents", "by killing opposition"],
+	"military":["Incredibly Strong", "Strong", "Medium", "Weak", "Feeble", "Powerful", "Mediocre"],
+	"crime":["High", "Medium", "Medium", "Medium", "Medium", "Medium", "Low"]
 }
