@@ -102,13 +102,8 @@
         <p>
             Press the 'Make a NPC' button to get a randomly generated NPC.
         </p>
-        <div style = "border: 1px;">
-            <pre id="NPC"  style = "font-family: arial">
-
-            </pre>
-        </div>
-        <form  method="GET">
-            <a href="#" onclick="NPC()" class="button">NPC</a>
+        <form  action="/npc_generator" method="GET">
+            <input type="submit" value="Generate a NPC">
         </form>
         <hr>
         <h1 style="font-size:40px;">Shop Generator</h1>

@@ -54,10 +54,24 @@ def loot_generator(grade, amount, itemcount):
 
 
 def shop_generator(type_):
+    Traits = str(random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])))
+    yield 'Shop Keeper:'
+    yield 'Name: {}'.format(random.choice(list(npc['Names'])))
+    yield 'Race: {}'.format(random.choice(list(npc['Race'])))
+    yield 'Manners: {}'.format(random.choice(list(npc['Manners'])))
+    yield 'Intelligence: {}'.format(random.choice(list(npc['Intelligence'])))
+    yield 'Physical Strength: {}'.format(random.choice(list(npc['Physical_Strength'])))
+    yield 'Influence: {}'.format(random.choice(list(npc['Influence'])))
+    yield 'Religious: {}'.format(random.choice(list(npc['Religious'])))
+    yield 'Social Ranking: {}'.format(random.choice(list(npc['Social_Ranking'])))
+    yield 'Wealth: {}'.format(random.choice(list(npc['Wealth'])))
+    yield 'Dominant Traits: {}'.format(Traits)
+    yield 'Profession: {}'.format(random.choice(list(npc['Profession'])))
+    yield ''
+    yield 'Shop Inventory:'
     for item in random.sample(list(shop[type_.lower().capitalize()]), random.randint(20, 30)):
         price_adjustment = random.randint(-5, 5)
         yield '{} - {} Coins'.format(item, shop[type_.lower().capitalize()][item] + price_adjustment if shop[type_.lower().capitalize()][item] + price_adjustment > 0 else shop[type_.lower().capitalize()][item])
-
 
 def quest_generator(quest_type):
     if quest_type.lower() == 'battle':
@@ -68,14 +82,18 @@ def quest_generator(quest_type):
 
 
 def npc_generator():
-    return {'Race': random.choice(list(npc['Race'])),
+    Traits = str(random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])))
+    return {'Name': random.choice(list(npc['Names'])),
+            'Race': random.choice(list(npc['Race'])),
             'Manners': random.choice(list(npc['Manners'])),
             'Intelligence': random.choice(list(npc['Intelligence'])),
             'Physical_Strength': random.choice(list(npc['Physical_Strength'])),
             'Influence': random.choice(list(npc['Influence'])),
             'Religious': random.choice(list(npc['Religious'])),
             'Social_Ranking': random.choice(list(npc['Social_Ranking'])),
-            'Wealth': random.choice(list(npc['Wealth']))}
+            'Wealth': random.choice(list(npc['Wealth'])),
+            'Dominant_Traits': Traits, 
+            'Profession': random.choice(list(npc['Profession']))}
 
 def item_search(term):
     for item in items:
@@ -84,7 +102,7 @@ def item_search(term):
 
 def town_generator():   
     yield "Located {}, {} is a {} {} town that specializes in {}. It's houses are generally built of {} and {}, although some are built of more valuable materials.".format(random.choice(list(town['location'])), random.choice(list(town['names'])), random.choice(list(town['size'])), random.choice(list(town['adjective'])), random.choice(list(town['description'])), random.choice(list(town['material2'])), random.choice(list(town['material'])))
-    yield "The town's attractions include a {} {} and a {} {}, both were made under the current ruler {} {} who was elected by {}.".format(random.choice(list(town['adjective2'])), random.choice(list(town['attractions'])), random.choice(list(town['adjective2'])), random.choice(list(town['attractions2'])), random.choice(list(town['titles'])), random.choice(list(town['names2'])), random.choice(list(town['elect'])))
+    yield "The town's attractions include a {} {} and a {} {}, both were made under the current ruler {} {} who was elected {}.".format(random.choice(list(town['adjective2'])), random.choice(list(town['attractions'])), random.choice(list(town['adjective2'])), random.choice(list(town['attractions2'])), random.choice(list(town['titles'])), random.choice(list(town['names2'])), random.choice(list(town['elect'])))
     yield "The town's economy is {} and is predicted to {} in the next few years under the current ruler. Meanwhile the political climate is outright {} and studies report the government will soon {} when the opposition party lead by {} {} {}.".format(random.choice(list(town['size'])), random.choice(list(town['growth'])), random.choice(list(town['politics'])), random.choice(list(town['politics2'])), random.choice(list(town['titles'])), random.choice(list(town['names2'])), random.choice(list(town['politics3'])))
     yield 'Population: {}'.format(random.randint(100, 10000))
     yield 'Military Strength: {}'.format(random.choice(list(town['military'])))
@@ -107,14 +125,24 @@ def town_generator():
     yield '8. {} {}'.format(random.choice(list(town['cook'])), random.choice(list(town['dish'])))
     yield '9. {} {}'.format(random.choice(list(town['cook'])), random.choice(list(town['dish'])))
     yield '10. {} {}'.format(random.choice(list(town['cook'])), random.choice(list(town['dish'])))
-    yield ''
+    h = 0
     yield 'Interesting NPCs:'
-    yield 'NPC 1: {}'.format(random.choice(list(town['npcs'])))
-    yield 'Traits: {}, {}, {}'.format(random.choice(list(town['traits'])), random.choice(list(town['traits'])), random.choice(list(town['traits'])))
-    yield 'NPC 2: {}'.format(random.choice(list(town['npcs'])))
-    yield 'Traits: {}, {}'.format(random.choice(list(town['traits'])), random.choice(list(town['traits'])))
-    yield 'NPC 3: {}'.format(random.choice(list(town['npcs'])))
-    yield 'Traits: {}, {}, {}'.format(random.choice(list(town['traits'])), random.choice(list(town['traits'])), random.choice(list(town['traits'])))
+    for x in range(0,3):
+        Traits = str(random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])))
+        h =  h + 1
+        yield ''
+        yield 'NPC {}:'.format(h)
+        yield 'Name: {}'.format(random.choice(list(npc['Names'])))
+        yield 'Race: {}'.format(random.choice(list(npc['Race'])))
+        yield 'Manners: {}'.format(random.choice(list(npc['Manners'])))
+        yield 'Intelligence: {}'.format(random.choice(list(npc['Intelligence'])))
+        yield 'Physical Strength: {}'.format(random.choice(list(npc['Physical_Strength'])))
+        yield 'Influence: {}'.format(random.choice(list(npc['Influence'])))
+        yield 'Religious: {}'.format(random.choice(list(npc['Religious'])))
+        yield 'Social Ranking: {}'.format(random.choice(list(npc['Social_Ranking'])))
+        yield 'Wealth: {}'.format(random.choice(list(npc['Wealth'])))
+        yield 'Dominant Traits: {}'.format(Traits)
+        yield 'Profession: {}'.format(random.choice(list(npc['Profession'])))
 
 def battle(enemy_health, enemy_attack, enemy_defense, enemy_speed, enemy_crit, health, attack, defense, speed, crit):
     while True:

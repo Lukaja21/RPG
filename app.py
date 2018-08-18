@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from generators import (loot_generator, shop_generator, quest_generator, item_search, battle, town_generator, dungeon_generator)
+from generators import (loot_generator, shop_generator, quest_generator, item_search, battle, town_generator, dungeon_generator, npc_generator)
 
 app = Flask(__name__)
 
@@ -56,6 +56,10 @@ def town_page():
 @app.route('/dungeon_generator')
 def dungeon_page():
     return render_template('dungeon_page.html', dungeon=dungeon_generator())
+
+@app.route('/npc_generator')
+def npc_page():
+    return render_template('npc_page.html', npc=npc_generator())
 
 if __name__ == '__main__':
     app.run()
