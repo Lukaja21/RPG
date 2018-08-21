@@ -32,7 +32,7 @@ def dungeon_generator(length):
         h = h + 1
         yield 'Room {}: {}'.format(h, random.choice(list(dungeon['dungeons'])))
 
-def loot_generator(grade, amount, itemcount):
+def loot_generator(grade, amount, itemcount, kind):
     if grade.lower() == 'bad':
         price = 10
 
@@ -41,20 +41,48 @@ def loot_generator(grade, amount, itemcount):
 
     elif grade.lower() == 'good':
         price = 40
+    if kind == 'custom':
+        for x in range(itemcount):
+            quant_adjustment = random.randint(-2, 2)
+            adjusted_quantity = amount + quant_adjustment if amount + \
+                quant_adjustment > 0 else amount
+    
+            price_adjustment = random.randint(-20, 20)
+            adjusted_price = price + price_adjustment if price + price_adjustment > 0 else price
+    
+            item = random.choice(loot)
+            item_grade = random.choice(grades[grade.lower().capitalize()])
+    
+            yield '{} {} {} - {} Coins'.format(adjusted_quantity, item_grade, item, adjusted_price * adjusted_quantity)
+    elif kind == 'sack':
+        for x in range(random.randint(2, 4)):
+            price_adjustment = random.randint(-10, 5)
+            adjusted_price = price + price_adjustment if price + price_adjustment > 0 else price
 
-    for x in range(itemcount):
-        quant_adjustment = random.randint(-2, 2)
-        adjusted_quantity = amount + quant_adjustment if amount + \
-            quant_adjustment > 0 else amount
+            item = random.choice(loot)
+            item_grade = random.choice(grades['Bad'])
 
-        price_adjustment = random.randint(-20, 20)
-        adjusted_price = price + price_adjustment if price + price_adjustment > 0 else price
+            yield '{} {} {} - {} Coins'.format(1, item_grade, item, adjusted_price)
+    
+    elif kind == 'chest':
+         for x in range(random.randint(7, 9)):
+            price_adjustment = random.randint(-10, 10)
+            adjusted_price = price + price_adjustment if price + price_adjustment > 0 else price
 
-        item = random.choice(loot)
-        item_grade = random.choice(grades[grade.lower().capitalize()])
+            item = random.choice(loot)
+            item_grade = random.choice(grades['Normal'])
 
-        yield '{} {} {} - {} Coins'.format(adjusted_quantity, item_grade, item, adjusted_price * adjusted_quantity)
+            yield '{} {} {} - {} Coins'.format(random.randint(2,3), item_grade, item, adjusted_price)
+    elif kind == 'treasure':
+        for x in range(14, 17):
+            price_adjustment = random.randint(-20, 20)
+            adjusted_price = price + price_adjustment if price + price_adjustment > 0 else price
 
+            thing = ['Good', 'Normal']
+            item = random.choice(loot)
+            item_grade = random.choice(grades[random.choice(thing)])
+
+            yield '{} {} {} - {} Coins'.format(random.randint(2, 4), item_grade, item, adjusted_price)
 
 def shop_generator(type_):
     Traits = str(random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])) + ', ' + random.choice(list(npc['Traits'])))

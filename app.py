@@ -12,7 +12,7 @@ def main():
 @app.route('/quest_generator')
 def quest_page():
     try:
-        return render_template('quest_page.html', quest=quest_generator(request.args['quest_type']))
+        return render_template('quest_page.html', quest=quest_generator(request.args['quest_type']), npc=npc_generator())
     
     except Exception:
         return 'Error'
@@ -20,11 +20,7 @@ def quest_page():
 
 @app.route('/loot_generator')
 def loot_page():
-    try:
-        return render_template('loot_page.html', loots=list(loot_generator(request.args['grade'], int(request.args['amount']), int(request.args['itemcount']))))
-
-    except Exception:
-        return 'Error'
+    return render_template('loot_page.html', loots=list(loot_generator(request.args['grade'], int(request.args['amount']), int(request.args['itemcount']), request.args['kind'])))
 
 @app.route('/shop_generator')
 def shop_page():
@@ -66,4 +62,4 @@ def npc_page():
     return render_template('npc_page.html', npc=npc_generator())
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='192.168.1.25')
